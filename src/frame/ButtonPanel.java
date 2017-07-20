@@ -36,7 +36,7 @@ public class ButtonPanel extends JPanel implements ActionListener {
         add(numberField);
         add(correctness);
         add(checkButton);
-        //add(exitButton);
+        add(exitButton);
 
 
     }
