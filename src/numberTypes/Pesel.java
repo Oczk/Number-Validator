@@ -5,6 +5,7 @@ public class Pesel extends Number {
 
     public Pesel(String number) {
         super(number);
+        setNumberType("PESEL");
     }
 
     //calculate contrlSum by pattern 1×a + 3×b + 7×c + 9×d + 1×e + 3×f + 7×g + 9×h + 1×i + 3×j + 1×k and checkIsNumberCorrect if %10 equals 0

@@ -3,6 +3,7 @@ package numberTypes;
 public abstract class Number {
 
     int[] numberArr;
+    private String numberType;
     public boolean isNumberCorrect;
 
     Number(String number) {
@@ -24,4 +25,13 @@ public abstract class Number {
             this.numberArr[i] = Character.getNumericValue(number.charAt(i));
         }
     }
+
+    void setNumberType(String type){
+        this.numberType = type;
+    }
+
+    public String getNumberType(){
+        return numberType;
+    }
+
 }

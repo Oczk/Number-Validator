@@ -5,6 +5,7 @@ public class Nip extends Number {
 
     public Nip(String number) {
         super(number);
+        setNumberType("NIP");
     }
 
     protected boolean checkIsNumberCorrect() {

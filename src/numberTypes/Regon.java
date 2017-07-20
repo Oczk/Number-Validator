@@ -5,6 +5,7 @@ public class Regon extends Number {
 
     public Regon(String number) {
         super(number);
+        setNumberType("REGON");
     }
 
     protected boolean checkIsNumberCorrect() {
